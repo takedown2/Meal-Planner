@@ -1,4 +1,4 @@
-# # # # # #         Nick Weis's Meal Planning Program         # # # # # # #
+# # # # # #         My Meal Planning Program         # # # # # # #
 
 # Import necessary modules
 import random
@@ -7,7 +7,7 @@ import os
 import sys
 
 # Point the OS to the right folder
-os.chdir(r'C:\Users\nichow13\OneDrive - kochind.com\Documents\Additional Documents\Python\Mealplanner')
+os.chdir(r'')
 
 global pantry   # ensures that the variable is global
 global stock    # ensures that the variable is global
@@ -379,7 +379,7 @@ while go == 'go':
     elif choice == '3':
         # Excel Prep
         # Open spreadsheets
-        os.chdir(r'C:\Users\nichow13\OneDrive - kochind.com\Documents\Additional Documents\Python\Mealplanner')  # Changes the current directory to the Python folder
+        os.chdir(r'')  # Changes the current directory to the Python folder
         calendar = openpyxl.load_workbook('xltest.xlsx')  # Opens the calendar workbook
         september = calendar['September']  # Opens the calendar sheet
 
